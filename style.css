@@ -1,0 +1,28 @@
+/** @format */
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 400px;
+  font-size: 15px;
+  outline: none;
+}
+
+button {
+  margin-top: 10px;
+  height: 30px;
+  width: 250px;
+  font-size: 15px;
+}
+
+
+/* input: */
+input:focus {
+  border: 2px solid green;
+}
